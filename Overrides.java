@@ -2,7 +2,7 @@
 
 package com.company;
 
-import java.sql.SQLOutput;
+import java.util.*;
 
 class A {
     public void methA() {

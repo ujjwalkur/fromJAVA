@@ -3,19 +3,23 @@
 package com.company;
 class Phone{
     public void greet(){
+
         System.out.println("Good morning");
     }
-    public void on(){
+    public void on()
+    {
         System.out.println("My phone is starting...");
     }
 }
 
 class SmartPhone extends Phone{
-    public void welcome(){
+    public void welcome()
+    {
         System.out.println("hello ! welcome ");
     }
 
-    public void on(){
+    public void on()
+    {
         System.out.println("SmartPhone is turning on...");
     }
 }
